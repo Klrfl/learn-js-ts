@@ -1,0 +1,12 @@
+{
+  "name": "kuis-coding-module",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ga tau apaan disuruh import Wolf sama tiger terus disuruh berantem masa",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Efraim :)",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tugas-js",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Tugas JS tapi gua tambah2in embel-embel ga jelas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Vitest",
+    "Unit Testing"
+  ],
+  "author": "Efraim",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.1.0"
+  }
+}
