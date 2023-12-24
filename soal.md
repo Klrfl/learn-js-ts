@@ -15,7 +15,7 @@ Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file
 9. [Kuis Coding Asynchronous](#kuis-coding-asynchronous)
 10. [Kuis Coding Asynchronous 2](#kuis-coding-asynchronous-2)
 
-## ~~ Kuis Coding Function ~~
+## ~~Kuis Coding Function~~
 
 1. Buatlah fungsi bernama `minimal` dengan ketentuan berikut:
 
