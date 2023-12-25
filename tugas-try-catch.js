@@ -7,7 +7,7 @@ export const detectTriangle = (a, b, c) => {
 
     return "Segitiga sembarang";
   } catch (error) {
-    throw error;
+    return error.message;
   }
 };
 
@@ -18,7 +18,7 @@ export class ValidationError extends Error {
   }
 }
 
-function validateNumberInput(...args) {
+export function validateNumberInput(...args) {
   for (let i = 0; i < args.length; i++) {
     if (typeof args[i] !== "number") {
       console.log(typeof args[i]);
