@@ -44,8 +44,6 @@ Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file
    power(4, 0.5); // mengeluarkkan 2
    ```
 
----
-
 ## ~~Kuis Coding Array~~
 
 Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, dengan ketentuan berikut:
@@ -68,8 +66,6 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
 2. Buatlah variabel `priceInIDR` yang bernilai dari hasil perkalian:
 
    - `priceInJPY` dengan nilai `JPY`
-
----
 
 ## ~~Kuis Coding Object~~
 
@@ -95,8 +91,6 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
    Kemudian isi dengan nilai `name` dari properti `restaurant`
 3. Buatlah variabel bernama `favoriteDrink`.
    Kemudian isi dengan nilai `"favorite drink"` dari properti `restaurant`
-
----
 
 ## ~~Kuis Coding OOP~~
 
@@ -142,13 +136,9 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
    - properti name bernilai: `"Elo"`
    - properti age bernilai: `4`
 
----
-
 ## ~~Kuis Coding Functional~~
 
 Buatlah variabel `greatAuthors` yang merupakan array berdasarkan hasil `filter()` dan `map()` dari `books`:
-
-kode `books`:
 
 ```js
 const books = [
@@ -170,12 +160,10 @@ const books = [
 - Gunakan fungsi `map()` pada books yang sudah ter-filter, untuk mengembalikan nilai string dengan format:
 
   ```js
-  ${author} adalah penulis buku ${title} yang sangat hebat!
+  `${author} adalah penulis buku ${title} yang sangat hebat!`;
   ```
 
 Catatan: Jangan ubah nilai atau struktur dari books
-
----
 
 ## ~~Kuis Coding Module~~
 
