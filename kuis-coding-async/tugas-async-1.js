@@ -1,4 +1,4 @@
-function getProvinces(countryId) {
+export function getProvinces(countryId) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (countryId === "id") {
@@ -15,13 +15,3 @@ function getProvinces(countryId) {
     }, 1000);
   });
 }
-
-getProvinces("xe")
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
-
-// export default getProvinces();
