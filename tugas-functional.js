@@ -31,7 +31,7 @@
 //   },
 // ];
 
-const books = [
+export const books = [
   { title: "The Da Vinci Code", author: "Dan Brown", sales: 5094805 },
   { title: "The Ghost", author: "Robert Harris", sales: 807311 },
   { title: "White Teeth", author: "Zadie Smith", sales: 815586 },
@@ -45,13 +45,10 @@ const books = [
   },
 ];
 
-const filteredBooks = books.filter((book) => {
+export const filteredBooks = books.filter((book) => {
   return book.sales > 1_000_000;
 });
 
-mappedBooks = filteredBooks.map((filteredBook) => {
+export const greatAuthors = filteredBooks.map((filteredBook) => {
   return `${filteredBook.author} adalah penulis buku "${filteredBook.title}" yang sangat hebat!`;
 });
-
-console.log("filteredBooks: ", filteredBooks, "\n");
-console.log("mappedBooks: ", mappedBooks, "\n");
