@@ -1,5 +1,5 @@
 // malas ngerjain ahhahahahahah
-const detectTriangle = (a, b, c) => {
+export const detectTriangle = (a, b, c) => {
   try {
     validateNumberInput(a, b, c);
     if (a === b && b === c) return "Segitiga sama sisi";
@@ -7,11 +7,11 @@ const detectTriangle = (a, b, c) => {
 
     return "Segitiga sembarang";
   } catch (error) {
-    console.error(error);
+    throw error;
   }
 };
 
-class ValidationError extends Error {
+export class ValidationError extends Error {
   constructor(message) {
     super(message);
     this.name = "ValidationError";
@@ -22,9 +22,7 @@ function validateNumberInput(...args) {
   for (let i = 0; i < args.length; i++) {
     if (typeof args[i] !== "number") {
       console.log(typeof args[i]);
-      throw new ValidationError(`Argumen ke-${i + 1} harus bertipe number`);
+      throw new ValidationError(`Argumen ke-${i + 1} harus number`);
     }
   }
 }
-
-console.log(detectTriangle(1, 2, "impostor amongus!!"));
