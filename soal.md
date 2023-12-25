@@ -182,7 +182,6 @@ class Tiger {
   }
 }
 
-// TODO 1
 module.exports = Tiger;
 ```
 
@@ -207,8 +206,6 @@ class Wolf {
 Impor class Tiger dan Wolf
 
 ```js
-// TODO 3
-
 const fight = (tiger, wolf) => {
   if (tiger.strength > wolf.strength) {
     return tiger.growl();
