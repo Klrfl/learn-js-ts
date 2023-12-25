@@ -1,11 +1,10 @@
-const restaurant = {
+export const restaurant = {
   name: "KFC",
   city: "Gotham",
-  favoriteDrink: "Water",
-  favoriteFood: "Fried Chicken",
+  "favorite drink": "Water",
+  "favorite food": "Fried Chicken",
   isVegan: false,
 };
 
-const { name, favoriteDrink } = restaurant;
-
-console.log(name, favoriteDrink);
+export const name = restaurant["name"];
+export const favoriteDrink = restaurant["favorite drink"];
