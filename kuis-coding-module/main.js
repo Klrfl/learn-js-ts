@@ -15,6 +15,5 @@ const myTiger = new Tiger();
 const myWolf = new Wolf();
 
 const result = fight(myTiger, myWolf);
-// console.log(result);
 
 export { myTiger, myWolf, result };
