@@ -11,7 +11,7 @@ class Animal {
 }
 
 class Rabbit extends Animal {
-  constructor(name: string, age: boolean, isMammal: boolean = true) {
+  constructor(name: string, age: number, isMammal: boolean = true) {
     super(name, age, isMammal);
   }
 
