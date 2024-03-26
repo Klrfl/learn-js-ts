@@ -1,8 +1,4 @@
-export function main() {
-  const firstName = "Ben";
-  const lastName = "Guntara";
-  const age = 70;
-  const isMarried = true;
-
-  console.log(firstName, lastName, isMarried, age);
-}
+export const firstName = "Ben";
+export const lastName = "Guntara";
+export const age = 70;
+export const isMarried = true;
