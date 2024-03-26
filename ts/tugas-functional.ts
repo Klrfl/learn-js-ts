@@ -1,4 +1,10 @@
-const books: object[] = [
+interface Book {
+  title: string;
+  author: string;
+  sales: number;
+}
+
+const books: Book[] = [
   { title: "The Da Vinci Code", author: "Dan Brown", sales: 5094805 },
   { title: "The Ghost", author: "Robert Harris", sales: 807311 },
   { title: "White Teeth", author: "Zadie Smith", sales: 815586 },
