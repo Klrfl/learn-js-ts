@@ -4,19 +4,19 @@ Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file
 
 ## Daftar isi
 
-1. [Kuis Coding Variabel](#kuis-coding-variabel)
-2. [Kuis Coding Function](#kuis-coding-function)
-3. [Kuis Coding Array](#kuis-coding-array)
-4. [Kuis Coding Map](#kuis-coding-map)
-5. [Kuis Coding Object](#kuis-coding-object)
-6. [Kuis Coding OOP](#kuis-coding-oop)
-7. [Kuis Coding Functional](#kuis-coding-functional)
-8. [Kuis Coding Module](#kuis-coding-module)
-9. [Kuis Coding Try Catch](#kuis-coding-try-catch)
-10. [Kuis Coding Asynchronous](#kuis-coding-asynchronous)
-11. [Kuis Coding Asynchronous 2](#kuis-coding-asynchronous-2)
+1. [Soal Variabel](#kuis-coding-variabel)
+2. [Soal Function](#kuis-coding-function)
+3. [Soal Array](#kuis-coding-array)
+4. [Soal Map](#kuis-coding-map)
+5. [Soal Object](#kuis-coding-object)
+6. [Soal OOP](#kuis-coding-oop)
+7. [Soal Functional](#kuis-coding-functional)
+8. [Soal Module](#kuis-coding-module)
+9. [Soal Try Catch](#kuis-coding-try-catch)
+10. [Soal Asynchronous](#kuis-coding-asynchronous)
+11. [Soal Asynchronous 2](#kuis-coding-asynchronous-2)
 
-## Kuis Coding Variabel
+## Soal Variabel
 
 Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
 
@@ -25,7 +25,7 @@ Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
 - age: bertipe data number.
 - isMarried: bertipe data boolean.
 
-## ~~Kuis Coding Function~~
+## Soal Function
 
 1. Buatlah fungsi bernama `minimal` dengan ketentuan berikut:
 
@@ -54,7 +54,7 @@ Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
    power(4, 0.5); // mengeluarkkan 2
    ```
 
-## ~~Kuis Coding Array~~
+## Soal Array
 
 Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, dengan ketentuan berikut:
 
@@ -64,7 +64,7 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
 
 ---
 
-## ~~Kuis Coding Map~~
+## Soal Map
 
 1. Buatlah variabel `currency` yang merupakan `Map` dengan kriteria:
 
@@ -77,7 +77,7 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
 
    - `priceInJPY` dengan nilai `JPY`
 
-## ~~Kuis Coding Object~~
+## Soal Object
 
 1. Buatlah variabel dengan nama `restaurant` yang bertipe `object` dengan ketentuan berikut:
 
@@ -102,7 +102,7 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
 3. Buatlah variabel bernama `favoriteDrink`.
    Kemudian isi dengan nilai `"favorite drink"` dari properti `restaurant`
 
-## ~~Kuis Coding OOP~~
+## Soal OOP
 
 1. Buatlah sebuah class bernama `Animal` dengan ketentuan:
 
@@ -146,7 +146,7 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
    - properti name bernilai: `"Elo"`
    - properti age bernilai: `4`
 
-## ~~Kuis Coding Functional~~
+## ~~Soal Functional~~
 
 Buatlah variabel `greatAuthors` yang merupakan array berdasarkan hasil `filter()` dan `map()` dari `books`:
 
@@ -175,7 +175,7 @@ const books = [
 
 Catatan: Jangan ubah nilai atau struktur dari books
 
-## ~~Kuis Coding Module~~
+## Soal Module
 
 ### TODO 1 (Tiger.js)
 
@@ -236,7 +236,7 @@ const result = fight(myTiger, myWolf);
 
 Ekspor fungsi fight, myTiger, myWolf, dan result
 
-## Kuis Coding Try Catch
+## Soal Try Catch
 
 ```js
 const detectTriangle = (a, b, c) => {
@@ -304,7 +304,7 @@ Menerima 3 argumen
   - pastikan Anda memanggil `validateNumberInput` menggunakan `try .. catch`.
   - bila block `catch` terpanggil, kembalikan fungsi `detectTriangle` dengan pesan error yang dibawa fungsi `validateNumberInput`.
 
-## Kuis Coding Asynchronous
+## Soal Asynchronous
 
 ### TODO
 
@@ -334,7 +334,7 @@ function getProvinces(countryId, callback) {
 module.exports = { getProvinces: getProvinces };
 ```
 
-## Kuis Coding Asynchronous 2
+## Soal Asynchronous 2
 
 ### TODO
 
