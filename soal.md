@@ -4,16 +4,26 @@ Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file
 
 ## Daftar isi
 
-1. [Kuis Coding Function](#kuis-coding-function)
-2. [Kuis Coding Array](#kuis-coding-array)
-3. [Kuis Coding Map](#kuis-coding-map)
-4. [Kuis Coding Object](#kuis-coding-object)
-5. [Kuis Coding OOP](#kuis-coding-oop)
-6. [Kuis Coding Functional](#kuis-coding-functional)
-7. [Kuis Coding Module](#kuis-coding-module)
-8. [Kuis Coding Try Catch](#kuis-coding-try-catch)
-9. [Kuis Coding Asynchronous](#kuis-coding-asynchronous)
-10. [Kuis Coding Asynchronous 2](#kuis-coding-asynchronous-2)
+1. [Kuis Coding Variabel](#kuis-coding-variabel)
+2. [Kuis Coding Function](#kuis-coding-function)
+3. [Kuis Coding Array](#kuis-coding-array)
+4. [Kuis Coding Map](#kuis-coding-map)
+5. [Kuis Coding Object](#kuis-coding-object)
+6. [Kuis Coding OOP](#kuis-coding-oop)
+7. [Kuis Coding Functional](#kuis-coding-functional)
+8. [Kuis Coding Module](#kuis-coding-module)
+9. [Kuis Coding Try Catch](#kuis-coding-try-catch)
+10. [Kuis Coding Asynchronous](#kuis-coding-asynchronous)
+11. [Kuis Coding Asynchronous 2](#kuis-coding-asynchronous-2)
+
+## Kuis Coding Variabel
+
+Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
+
+- firstName: bertipe data string.
+- lastName: bertipe data string.
+- age: bertipe data number.
+- isMarried: bertipe data boolean.
 
 ## ~~Kuis Coding Function~~
 
