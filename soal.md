@@ -1,21 +1,32 @@
 # Soal JavaScript
 
+<!--toc:start-->
+
+- [Soal JavaScript](#soal-javascript)
+  - [Daftar isi](#daftar-isi)
+  - [Soal Variabel](#soal-variabel)
+  - [Soal If](#soal-if)
+  - [Soal Function](#soal-function)
+  - [Soal Array](#soal-array)
+  - [Soal Map](#soal-map)
+  - [Soal Object](#soal-object)
+  - [Soal OOP](#soal-oop)
+  - [~~Soal Functional~~](#soal-functional)
+  - [Soal Module](#soal-module)
+    - [TODO 1 (Tiger.js)](#todo-1-tigerjs)
+    - [TODO 2 (Wolf.js)](#todo-2-wolfjs)
+    - [TODO 3 (main.js)](#todo-3-mainjs)
+    - [TODO 4 (main.js)](#todo-4-mainjs)
+  - [Soal Try Catch](#soal-try-catch)
+    - [TODO 1:](#todo-1)
+    - [TODO 2:](#todo-2)
+    - [TODO 3:](#todo-3)
+  - [Soal Asynchronous](#soal-asynchronous)
+    - [TODO](#todo)
+  - [Soal Asynchronous 2](#soal-asynchronous-2) - [TODO](#todo)
+  <!--toc:end-->
+
 Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file `.txt` dan juga terpisah, tapi saya gabungkan dan tulis ulang ke Markdown supaya lebih enak dibaca.
-
-## Daftar isi
-
-1. [Soal Variabel](#kuis-coding-variabel)
-2. [Soal If](#soal-if)
-3. [Soal Function](#kuis-coding-function)
-4. [Soal Array](#kuis-coding-array)
-5. [Soal Map](#kuis-coding-map)
-6. [Soal Object](#kuis-coding-object)
-7. [Soal OOP](#kuis-coding-oop)
-8. [Soal Functional](#kuis-coding-functional)
-9. [Soal Module](#kuis-coding-module)
-10. [Soal Try Catch](#kuis-coding-try-catch)
-11. [Soal Asynchronous](#kuis-coding-asynchronous)
-12. [Soal Asynchronous 2](#kuis-coding-asynchronous-2)
 
 ## Soal Variabel
 
@@ -78,9 +89,11 @@ Buatlah sebuah variabel dengan nama `evenNumber` yang merupakan sebuah array, de
    - key `"SGD"`, value `11000`
    - key `"MYR"`, value `3500`
 
-2. Buatlah variabel `priceInIDR` yang bernilai dari hasil perkalian:
+2. Buatlah variabel `priceInIDR` yang bernilai dari hasil perkalian `priceInJPY` dengan nilai `JPY`
 
-   - `priceInJPY` dengan nilai `JPY`
+```js
+const priceInJPY = 5000;
+```
 
 ## Soal Object
 
