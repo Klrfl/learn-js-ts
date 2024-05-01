@@ -1,16 +1,17 @@
 export function cekNilai(nilai) {
-  let hasil;
+  let result = "Anda mendapatkan nilai";
 
   if (nilai >= 90) {
-    hasil = "A";
+    result = `Selamat! ${result} A.`;
   } else if (nilai >= 80) {
-    hasil = "B";
+    result = `${result} B.`;
   } else if (nilai >= 70) {
-    hasil = "C";
+    result = `${result} C.`;
   } else if (nilai >= 60) {
-    hasil = "D";
+    result = `${result} D.`;
   } else if (nilai <= 60) {
-    hasil = "E";
+    result = `${result} E.`;
   }
-  return `Selamat anda mendapatkan nilai ${hasil}`;
+
+  return result;
 }

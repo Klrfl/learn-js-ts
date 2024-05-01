@@ -5,16 +5,17 @@ Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file
 ## Daftar isi
 
 1. [Soal Variabel](#kuis-coding-variabel)
-2. [Soal Function](#kuis-coding-function)
-3. [Soal Array](#kuis-coding-array)
-4. [Soal Map](#kuis-coding-map)
-5. [Soal Object](#kuis-coding-object)
-6. [Soal OOP](#kuis-coding-oop)
-7. [Soal Functional](#kuis-coding-functional)
-8. [Soal Module](#kuis-coding-module)
-9. [Soal Try Catch](#kuis-coding-try-catch)
-10. [Soal Asynchronous](#kuis-coding-asynchronous)
-11. [Soal Asynchronous 2](#kuis-coding-asynchronous-2)
+2. [Soal If](#soal-if)
+3. [Soal Function](#kuis-coding-function)
+4. [Soal Array](#kuis-coding-array)
+5. [Soal Map](#kuis-coding-map)
+6. [Soal Object](#kuis-coding-object)
+7. [Soal OOP](#kuis-coding-oop)
+8. [Soal Functional](#kuis-coding-functional)
+9. [Soal Module](#kuis-coding-module)
+10. [Soal Try Catch](#kuis-coding-try-catch)
+11. [Soal Asynchronous](#kuis-coding-asynchronous)
+12. [Soal Asynchronous 2](#kuis-coding-asynchronous-2)
 
 ## Soal Variabel
 
@@ -24,6 +25,10 @@ Buatlah variabel firstName, lastName, age, isMarried dengan ketentuan:
 - lastName: bertipe data string.
 - age: bertipe data number.
 - isMarried: bertipe data boolean.
+
+## Soal If
+
+Buat sebuah function
 
 ## Soal Function
 
