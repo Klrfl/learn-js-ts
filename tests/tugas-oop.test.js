@@ -35,8 +35,22 @@ describe("myRabbit", () => {
     expect(myRabbit).toBeInstanceOf(Rabbit);
   });
 
+  it("has property name with value 'Labi'", () => {
+    expect(myRabbit.name).toBe("Labi");
+  });
+
+  it("has property age with value 2", () => {
+    expect(myRabbit.age).toBe(2);
+  });
+
+  it("property isMammal Rabbit is true", () => {
+    expect(myRabbit.isMammal).toBe(true);
+  });
+
   it("method eat returns the right value", () => {
     const eatMessage = myRabbit.eat();
+
+    expect(eatMessage).toBeTypeOf("string");
     expect(eatMessage).toBe(`${myRabbit.name} sedang makan!`);
   });
 });
@@ -46,8 +60,22 @@ describe("myEagle", () => {
     expect(myEagle).toBeInstanceOf(Eagle);
   });
 
+  it("has property name with value 'Elo'", () => {
+    expect(myEagle.name).toBe("Elo");
+  });
+
+  it("has property age with value 4", () => {
+    expect(myEagle.age).toBe(4);
+  });
+
+  it("property isMammal of Eagle is false", () => {
+    expect(myEagle.isMammal).toBe(false);
+  });
+
   it("method fly of Eagle returns the right value", () => {
     const flyMessage = myEagle.fly();
+
+    expect(flyMessage).toBeTypeOf("string");
     expect(flyMessage).toBe(`${myEagle.name} sedang terbang!`);
   });
 });
