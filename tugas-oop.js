@@ -12,7 +12,7 @@ export class Rabbit extends Animal {
   }
 
   eat() {
-    console.log(`${this.name} sedang makan!`);
+    return `${this.name} sedang makan!`;
   }
 }
 
@@ -22,6 +22,9 @@ export class Eagle extends Animal {
   }
 
   fly() {
-    console.log(`${this.name} sedang terbang!`);
+    return `${this.name} sedang terbang!`;
   }
 }
+
+export const myRabbit = new Rabbit("Labi", 2);
+export const myEagle = new Eagle("Elo", 4);

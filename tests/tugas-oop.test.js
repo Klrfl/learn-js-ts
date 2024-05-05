@@ -1,45 +1,53 @@
-import { describe, it, expect, vi, afterEach } from "vitest";
-import { Animal, Rabbit, Eagle } from "../tugas-oop";
-import { beforeEach } from "vitest";
+import { describe, it, expect } from "vitest";
+import { Animal, Rabbit, Eagle, myRabbit, myEagle } from "../tugas-oop";
 
-describe("instances of child classes inherits from Animal", () => {
-  it("instance of class Rabbit inherits from class Animal", () => {
-    const rabbitInstance = new Rabbit("TheEagle", 10);
-    expect(rabbitInstance).toBeInstanceOf(Animal);
+describe("class Animal", () => {
+  const newAnimal = new Animal("Anjing", 10, true);
+
+  it("has string property called name", () => {
+    expect(newAnimal).toHaveProperty("name");
+    expect(newAnimal.name).toBeTypeOf("string");
   });
 
-  it("instance of class Eagle inherits from class Animal", () => {
-    const eagleInstance = new Eagle("TheEagle", 20);
-    expect(eagleInstance).toBeInstanceOf(Animal);
+  it("has number property called age", () => {
+    expect(newAnimal).toHaveProperty("age");
+    expect(newAnimal.age).toBeTypeOf("number");
+  });
+
+  it("has boolean property called isMammal", () => {
+    expect(newAnimal).toHaveProperty("isMammal");
+    expect(newAnimal.isMammal).toBeTypeOf("boolean");
   });
 });
 
-describe("methods of Rabbit", () => {
-  const consoleMock = vi
-    .spyOn(console, "log")
-    .mockImplementation(() => undefined);
-
-  afterEach(() => {
-    consoleMock.mockReset();
+describe("instances of child classes", () => {
+  it("instance of class Rabbit inherits from class Animal", () => {
+    expect(myRabbit).toBeInstanceOf(Animal);
   });
 
-  it("method eat of rabbit logs the right value", () => {
-    const rabbitInstance = new Rabbit("TheRabbit", 20);
-    rabbitInstance.eat();
+  it("instance of class Eagle inherits from class Animal", () => {
+    expect(myEagle).toBeInstanceOf(Animal);
+  });
+});
 
-    expect(consoleMock).toHaveBeenCalledOnce();
-    expect(consoleMock).toHaveBeenLastCalledWith(
-      `${rabbitInstance.name} sedang makan!`,
-    );
+describe("myRabbit", () => {
+  it("inherits from class Rabbit", () => {
+    expect(myRabbit).toBeInstanceOf(Rabbit);
   });
 
-  it("method fly of Eagle logs the right value", () => {
-    const eagleInstance = new Eagle("TheEagle", 20);
-    eagleInstance.fly();
+  it("method eat returns the right value", () => {
+    const eatMessage = myRabbit.eat();
+    expect(eatMessage).toBe(`${myRabbit.name} sedang makan!`);
+  });
+});
 
-    expect(consoleMock).toHaveBeenCalledOnce();
-    expect(consoleMock).toHaveBeenLastCalledWith(
-      `${eagleInstance.name} sedang terbang!`,
-    );
+describe("myEagle", () => {
+  it("inherits from class Eagle", () => {
+    expect(myEagle).toBeInstanceOf(Eagle);
+  });
+
+  it("method fly of Eagle returns the right value", () => {
+    const flyMessage = myEagle.fly();
+    expect(flyMessage).toBe(`${myEagle.name} sedang terbang!`);
   });
 });
