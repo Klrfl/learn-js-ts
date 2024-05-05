@@ -20,13 +20,31 @@ describe("class Animal", () => {
   });
 });
 
-describe("instances of child classes", () => {
-  it("instance of class Rabbit inherits from class Animal", () => {
-    expect(myRabbit).toBeInstanceOf(Animal);
+describe("class Rabbit", () => {
+  it("inherits from class Animal", () => {
+    expect(Rabbit.prototype).toBeInstanceOf(Animal);
   });
 
-  it("instance of class Eagle inherits from class Animal", () => {
-    expect(myEagle).toBeInstanceOf(Animal);
+  it("has method eat that returns the right value", () => {
+    expect(Rabbit.prototype).toHaveProperty("eat");
+    const eatMessage = myRabbit.eat();
+
+    expect(eatMessage).toBeTypeOf("string");
+    expect(eatMessage).toBe(`${myRabbit.name} sedang makan!`);
+  });
+});
+
+describe("class Eagle", () => {
+  it("inherits from class Animal", () => {
+    expect(Eagle.prototype).toBeInstanceOf(Animal);
+  });
+
+  it("method fly of Eagle returns the right value", () => {
+    expect(Eagle.prototype).toHaveProperty("fly");
+    const flyMessage = myEagle.fly();
+
+    expect(flyMessage).toBeTypeOf("string");
+    expect(flyMessage).toBe(`${myEagle.name} sedang terbang!`);
   });
 });
 
@@ -43,15 +61,8 @@ describe("myRabbit", () => {
     expect(myRabbit.age).toBe(2);
   });
 
-  it("property isMammal Rabbit is true", () => {
+  it("property isMammal is true", () => {
     expect(myRabbit.isMammal).toBe(true);
-  });
-
-  it("method eat returns the right value", () => {
-    const eatMessage = myRabbit.eat();
-
-    expect(eatMessage).toBeTypeOf("string");
-    expect(eatMessage).toBe(`${myRabbit.name} sedang makan!`);
   });
 });
 
@@ -68,14 +79,7 @@ describe("myEagle", () => {
     expect(myEagle.age).toBe(4);
   });
 
-  it("property isMammal of Eagle is false", () => {
+  it("property isMammal is false", () => {
     expect(myEagle.isMammal).toBe(false);
-  });
-
-  it("method fly of Eagle returns the right value", () => {
-    const flyMessage = myEagle.fly();
-
-    expect(flyMessage).toBeTypeOf("string");
-    expect(flyMessage).toBe(`${myEagle.name} sedang terbang!`);
   });
 });
