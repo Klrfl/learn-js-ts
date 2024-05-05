@@ -21,7 +21,6 @@ export class ValidationError extends Error {
 export function validateNumberInput(...args) {
   for (let i = 0; i < args.length; i++) {
     if (typeof args[i] !== "number") {
-      console.log(typeof args[i]);
       throw new ValidationError(`Argumen ke-${i + 1} harus number`);
     }
   }

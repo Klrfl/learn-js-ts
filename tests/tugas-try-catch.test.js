@@ -6,10 +6,10 @@ import {
 } from "../tugas-try-catch";
 
 describe("a function that detects triangles", () => {
-  it("should throw an error when there is an invalid input", () => {
-    expect(detectTriangle(1, 2, "impostor amongus!!")).toBe(
-      "Argumen ke-3 harus number",
-    );
+  it("should throw an error with the right message when input is invalid", () => {
+    expect(detectTriangle(undefined, 2, 10)).toBe("Argumen ke-1 harus number");
+    expect(detectTriangle(0, null, 10)).toBe("Argumen ke-2 harus number");
+    expect(detectTriangle(1, 2, "3")).toBe("Argumen ke-3 harus number");
   });
 
   it("should return Segitiga sama sisi when all sides are the same", () => {
@@ -26,7 +26,7 @@ describe("a function that detects triangles", () => {
 });
 
 describe("input validation function", () => {
-  it("should throw error when one of the inputs are not of type number", () => {
+  it("should throw error from ValidationError", () => {
     expect(() => validateNumberInput(1, 2, "impostor amongus")).toThrowError(
       ValidationError,
     );
