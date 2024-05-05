@@ -3,7 +3,6 @@
 <!--toc:start-->
 
 - [Soal JavaScript](#soal-javascript)
-  - [Daftar isi](#daftar-isi)
   - [Soal Variabel](#soal-variabel)
   - [Soal If](#soal-if)
   - [Soal Function](#soal-function)
@@ -22,8 +21,7 @@
     - [TODO 2:](#todo-2)
     - [TODO 3:](#todo-3)
   - [Soal Asynchronous](#soal-asynchronous)
-    - [TODO](#todo)
-  - [Soal Asynchronous 2](#soal-asynchronous-2) - [TODO](#todo)
+  - [Soal Asynchronous 2](#soal-asynchronous-2)
   <!--toc:end-->
 
 Berikut adalah soal-soal koding JavaScript. Awalnya soal-soal ini berbentuk file `.txt` dan juga terpisah, tapi saya gabungkan dan tulis ulang ke Markdown supaya lebih enak dibaca.
@@ -324,8 +322,6 @@ Menerima 3 argumen
 
 ## Soal Asynchronous
 
-### TODO
-
 Ubahlah fungsi asynchronous callback-based getProvinces menjadi Promise-based.
 
 Catatan:
@@ -353,8 +349,6 @@ module.exports = { getProvinces: getProvinces };
 ```
 
 ## Soal Asynchronous 2
-
-### TODO
 
 Lengkapilah kode di bawah ini agar dapat mengakses jalan tol.
 
